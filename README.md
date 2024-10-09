@@ -1,0 +1,1 @@
+A Hospital Management Web Mini Project is a simplified web-based system designed to streamline and automate the key functions of a hospital or clinic. It manages essential aspects such as about us, doctors, appointment scheduling, and services.This project enhances the efficiency of hospital operations, reduces paperwork, and improves patient care.
