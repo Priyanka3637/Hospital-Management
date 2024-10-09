@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Navigation menu styles */
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+		
+		nav a {
+		text-decoration: none;
+		color: #fff;
+		font-weight: bold;
+		}
+
+		nav a:hover {
+		color: #ff5733;
+		}
+
+        /* Main content styles */
+        .container {
+           max-width: 1100px;
+			margin: 20px auto;
+			padding: 20px;
+			background-color: #f9f9f9;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+        }
+
+        .about-section {
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        .left-text {
+            float: left;
+            width: 70%; /* 70% for text area */
+            padding-right: 20px;
+            box-sizing: border-box;
+        }
+
+        .right-picture {
+            float: right;
+            width: 30%; /* 30% for picture */
+        }
+
+        /* Clear the float to prevent content overlap */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Specialized Doctors</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services2.html">Services</a></li>
+            <li><a href="Dcontact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="about-section">
+            <div class="left-text">
+                 <h2>Dr. Prakash P Hosmani</h2>
+                <p>associate consultant</p>
+                <p>completed his BHMS  from Maratha Madala Homeopathic Medical College Belgaum , over 10 years of experience
+					expert in patient care with evidence-based treatment</p>
+				<button type "button" onclick="alert('appointment booked')">Book Appointment!</button>
+            </div>
+            <div class="right-picture">
+                <img src="C:\Users\HPr\Downloads\Hospital management\Hospital management\images\prakash.png" alt="Image 1" width="300" height="300">
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="about-section">
+            <div class="left-text">
+               <h2>Dr. Manjunath D </h2>
+                <p>gynecologist</p>
+                <p>one of the best gynecologist in Davangere. He is also a highly skilled and experienced . He actively involved in speaking about health issues and presenting
+					his research findings in a number of forums.
+					Dr.Manjunath D graduated from SDM medical College,Hasan</p>
+				<button type "button" onclick="alert('appointment booked')">Book Appointment!</button>
+            </div>
+            <div class="right-picture">
+                <img src="C:\Users\HPr\Downloads\Hospital management\Hospital management\images\doctor2.jpg" alt="Image 2" width="300" height="300">
+            </div>
+            <div class="clearfix"></div>
+        </div>
+		<div class="about-section">
+            <div class="left-text">
+                <h2>Dr Prajwal Hosmani</h2>
+                <p>surgeon</p>
+                <p>Dr Prajwal Hosmani is a experienced surgeon. Dr Prajwal holds an MBBS degree DY Patil Medical College Hospital and Research Centre Kolhapur 
+					This patient-centric approach has earned him a reputation for providing exceptional care, leading to high patient satisfaction levels.</p>
+				<button type "button" onclick="alert('appointment booked')">Book Appointment!</button>
+            </div>
+            <div class="right-picture">
+                <img src="C:\Users\HPr\Downloads\Hospital management\Hospital management\images\IMG_20230905_001037.png" alt="Image 3" width="300" height="300">
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        
+        <!-- Add more sections as needed -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style header */
+header {
+    background-color: #0074cc;
+    color: white;
+    text-align:right;
+    padding: 20px 0;
+}
+
+/* Style navigation menu */
+nav ul {
+    list-style-type: none;
+    background-color: #0074cc;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style main content section */
+.main-content {
+    margin: 20px;
+}
+
+/* Style sidebar */
+.sidebar {
+    float: right;
+    width: 30%;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Style footer */
+footer {
+    clear: both;
+    background-color: #0074cc;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

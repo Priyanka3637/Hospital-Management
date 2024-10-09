@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Menu Button</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Menu button styles */
+        .menu-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        /* Hidden menu styles */
+        .menu {
+            display: none;
+            position: absolute;
+            top: 50px;
+            right: 10px;
+            background-color: #444;
+            list-style-type: none;
+            padding: 10px;
+        }
+
+        .menu li {
+            margin: 10px 0;
+        }
+
+        /* Show menu when button is clicked */
+        .menu-active .menu {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Responsive Menu Button</h1>
+    </header>
+
+    <!-- Menu button -->
+    <button class="menu-button" onclick="toggleMenu()">Menu</button>
+
+    <!-- Hidden menu -->
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about2.html">About Us</a></li>
+            <li><a href="doctors2.html">Doctors</a></li>
+            <li><a href="services2.html">Services</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.classList.toggle('menu-active');
+        }
+    </script>
+</body>
+</html>

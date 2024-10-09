@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Navigation menu styles */
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+		nav a {
+		text-decoration: none;
+		color: #fff;
+		font-weight: bold;
+		}
+
+		nav a:hover {
+		color: #ff5733;
+		}
+
+        /* Main content styles */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Doctors section styles */
+        .doctors-section {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        .doctor {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .doctor h2 {
+            margin-top: 0;
+        }
+
+        .contact-number {
+            font-weight: bold;
+        }
+
+        .book-appointment-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Clear the float to prevent content overlap */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Doctors</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="doctors2.html">Doctors</a></li>
+            <li><a href="services2.html">services</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="doctors-section">
+            <div class="doctor">
+                <h2>Dr. Prakash P Hosmani</h2>
+                <p><span class="contact-number">Contact Number:</span> +91 8147383637</p>
+				<h3><b>associate consultant</b></h3>
+                <a href="doctors2.html" class="book-appointment-btn">Book Appointment</a>				
+            </div>
+            <div class="doctor">
+                <h2>Dr. Manjunath D </h2>
+                <p><span class="contact-number">Contact Number:</span> +91 9353308446</p>
+				<h3><b>gynecologist</b></h3>
+                <a href="doctors2.html" class="book-appointment-btn">Book Appointment</a>				 
+            </div>
+            <div class="doctor">
+                <h2>Dr Prajwal Hosmani</h2>
+                <p><span class="contact-number">Contact Number:</span> +91 6360535497</p>
+				<h3><b>surgeon</b></h3>
+                <a href="doctors2.html" class="book-appointment-btn">Book Appointment</a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</body>
+</html>
